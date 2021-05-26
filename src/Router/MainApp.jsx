@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { RouterApp } from "./Router/Router";
-import { UserContext} from "./Router/Context/UserContext"
-import "./HookApp.scss"
+import { UserContext } from "./Context/UserContext";
+import { RouterApp } from "./Router";
 
-export const HookApp = () => {
+export const MainApp = () => {
   const [user, setUser] = useState({from:'MainApp'});
 
   return (

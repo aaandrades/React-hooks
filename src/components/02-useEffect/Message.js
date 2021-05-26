@@ -17,7 +17,7 @@ export const Message = () => {
     window.addEventListener("mousemove", mouseMove);
 
     return () => window.removeEventListener("mousemove", mouseMove);
-  }, []);
+  }, [coordsState]);
 
   return (
     <div>

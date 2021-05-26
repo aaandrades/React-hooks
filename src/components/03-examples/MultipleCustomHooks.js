@@ -14,8 +14,7 @@ export const MultipleCustomHooks = () => {
 
   return (
     <>
-      <h1>BreakingBad Quotes</h1>
-      <hr />
+      <h3>BreakingBad Quotes</h3>
       {loading ? (
         <div className="alert alert-info text-center">Loading ...</div>
       ) : (

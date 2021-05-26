@@ -14,9 +14,8 @@ export const FormWithCustomHook = () => {
   const { email, name, password } = values;
 
   return (
-    <form onSubmit={ handleSubmit }>
-      <h1>Form with Custom Hook</h1>
-      <hr />
+    <form onSubmit={ handleSubmit } className="formContainer">
+      <h3>Form with Custom Hook</h3>
       <div className="form-group">
         <input
           type="text"

@@ -6,14 +6,14 @@ import { heavyProcess } from '../../helpers/heavyProcess'
 import "./memorize.css";
 
 export const MemoHook = () => {
-  const { state, increment } = useCounter(100);
+  const { state, increment } = useCounter(4);
   const [show, setShow] = useState(true);
 
   const memoProcess = useMemo(() => heavyProcess(state), [state]);
 
   return (
     <div>
-      <h1> MemoHook</h1>
+      <h3> MemoHook</h3>
       <hr />
       <h3>
         Counter: <CounterComponent counter={state} />

@@ -7,8 +7,7 @@ export const CounterWithCustomHook = () => {
 
   return (
     <div>
-      <h1>Counter with Hook: {state}</h1>
-      <hr />
+      <h3>Counter with Hook: {state}</h3>
       <button className="btn btn-primary inLine" onClick={() => increment(2)}>
         +1
       </button>

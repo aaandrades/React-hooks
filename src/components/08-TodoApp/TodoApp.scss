@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+}
+
+#top {
+    margin-top: 30px;
+}
+
+.containerOption {
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 6px;
+    transition: 0.5s;
+    &__text {
+        vertical-align: middle;
+    }
+    &:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    &:hover {
+        padding-right: 25px;
+    }
+}
+
+.add-to-do {
+    display: flex;
+    padding-left: 2rem;
+    justify-content: space-around;
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+    }
+    .buttons {
+        margin-top: 5px;
+    }
+}

@@ -6,7 +6,7 @@ export const RealExampleRef = () => {
   const [show, setShow] = useState(false);
   return (
     <div>
-      <h1>Real Example Ref</h1>
+      <h3>Real Example Ref</h3>
       {show && <MultipleCustomHooks />}
       <br></br>
       <br></br>
