@@ -4,7 +4,7 @@
 ![Build](https://img.shields.io/badge/-Working-brightgreen)
 
 ### :memo: Description
-This project has the principal Hooks in React in a way to learn and apply concepts and get a better quality of code.
+This project has the principals Hooks in React in a way to learn and apply concepts and then get a better quality of code.
 
 ### :sparkles: Features
 You'll find here:
@@ -20,6 +20,7 @@ You'll find here:
 - useContext
 ### :alembic: Core Concepts
 - React Hooks
+- Routing
 
 ### :construction: Made with
 - React 11
