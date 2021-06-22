@@ -1,5 +1,3 @@
-console.log("HOLA MUNDO");
-
 const initialState = {
   id: 1,
   todo: "Buy milk",

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { setConstantValue } from "typescript";
 
 export const useFetch = (url) => {
   const initialState = {
@@ -35,6 +36,13 @@ export const useFetch = (url) => {
             data,
           });
         }
+      })
+      .catch(() => {
+        setConstantValue({
+          data: null,
+          loading: false,
+          error: "Cannot load the info",
+        });
       });
 
     // return () => {

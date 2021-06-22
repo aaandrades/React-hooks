@@ -21,6 +21,7 @@ You'll find here:
 ### :alembic: Core Concepts
 - React Hooks
 - Routing
+- Unit Testing
 
 ### :construction: Made with
 - React 11

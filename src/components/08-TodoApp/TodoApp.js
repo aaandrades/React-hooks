@@ -21,6 +21,7 @@ export const TodoApp = () => {
     localStorage.setItem("toDos", JSON.stringify(states)); // Save in localStorage when the states changes
   }, [states]);
 
+
   // Delete an Item
   const handleDelete = (todoId) => {
     const newTodo = {

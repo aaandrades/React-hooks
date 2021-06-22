@@ -1,6 +1,5 @@
 import React from "react";
 
-
 // Example of reducer concept - Intro to Redux
 export const IntroReducer = () => {
   const initialState = [
@@ -19,7 +18,6 @@ export const IntroReducer = () => {
   };
 
   let todos = toDoreducer();
-  console.log("INITIAL STATE: ", todos);
 
   const newTodo = {
     id: 2,

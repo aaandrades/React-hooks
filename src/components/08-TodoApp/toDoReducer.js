@@ -7,7 +7,6 @@ export const toDoReducer = (state = [], action = []) => {
     case "Update-old":
       return state.map((todo) => {
         if (action.payload.id === todo.id) {
-          console.log("ENTER HERE?");
           return {
             ...todo,
             done: !todo.done,

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for TodoListItem should create correctly 1`] = `
+<div
+  className="containerOption"
+  key="1"
+  onClick={[Function]}
+  style={
+    Object {
+      "background": "",
+    }
+  }
+>
+  <p
+    className="containerOption__text"
+  >
+    1
+    . 
+    Learn React
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</div>
+`;
